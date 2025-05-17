@@ -1,4 +1,4 @@
-module com.example.javafxaprendizado {
+module com.example.programacaoculatramonihealph {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -10,8 +10,7 @@ module com.example.javafxaprendizado {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
-    requires annotations;
 
-    opens com.example.javafxaprendizado to javafx.fxml;
-    exports com.example.javafxaprendizado;
+    opens com.example.programacaoculatramonihealph to javafx.fxml;
+    exports com.example.programacaoculatramonihealph;
 }
